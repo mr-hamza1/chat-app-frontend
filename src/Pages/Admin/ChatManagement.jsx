@@ -1,7 +1,7 @@
 import { Avatar, Skeleton, Stack } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import AdminLayout from "../../Components/layout/AdminLayout";
-import AvatarCard from "../../components/shared/AvatarCard";
+import AvatarCard from "../../Components/shared/AvatarCard";
 import Table from "../../Components/shared/Table";
 import { useErrors } from "../../Hooks/hook";
 import { transformImage } from "../../Lib/features";

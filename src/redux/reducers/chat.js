@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";  //// create slice reducx  main ek tool hai jo  redux store imolement kerne or state , action ,reducer, ko manage kerta ahi
 import { getOrSaveFromStroage } from "../../Lib/features.js";
-import { NEW_MESSAGE_ALERT } from "../../../../server/constants/event.js";
+import { NEW_MESSAGE_ALERT } from "../../Components/constants/event.js";
 
 const initialState = {     //// redux main hum hamesha initialState set kerte hain sab sai phele
 

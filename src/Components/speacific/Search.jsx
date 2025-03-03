@@ -48,7 +48,7 @@ const Search = () => {
   return (
     <Dialog open={isSearch} onClose={handlecloseSearchDialog} >
 
-      <Stack p={"2rem"} direction={"column"} width={"25rem"}>
+      <Stack p={"2rem"} direction={"column"} sx={{ width: { xs: "100%", sm: "25rem" } }}>
         <DialogTitle textAlign={"center"}>Find People</DialogTitle>
         <TextField
           label=""
